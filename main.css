@@ -1,0 +1,55 @@
+.tabs {
+    display: flex;
+}
+
+.tab {
+    margin: 20px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.tab:hover {
+background-color: yellow;
+}
+
+.image img {
+    width: 640px;
+    height: 480px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.fade {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
